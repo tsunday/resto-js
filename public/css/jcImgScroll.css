@@ -1,0 +1,164 @@
+
+
+#gallery-wrapper li img {
+
+  opacity: 0.7 !important
+
+}
+
+
+
+#gallery-wrapper li.select img {
+
+  opacity: 1 !important
+
+}
+
+
+
+.jcImgScroll {
+
+  position: relative;
+
+  /*height: 342px;*/
+
+  padding: 0px 0 170px 0;
+
+}
+
+
+
+/*.jcImgScroll li { border: 1px solid #ccc; }*/
+
+
+
+.jcImgScroll li a {
+
+  /*background: #fff;*/
+
+  display: block;
+
+  /*height: 340px;*/
+
+}
+
+
+
+.jcImgScroll li.loading a { background: #fff url('assets/images/loading.gif') no-repeat center center; }
+
+
+
+.jcImgScroll li img,
+
+.jcImgScroll li,
+
+.jcImgScroll em,
+
+.jcImgScroll dl { display: none; }
+
+
+
+.jcImgScroll em.sPrev {
+
+  background: url('../graphics/image-slider-back-arrow.png') no-repeat right center;
+
+  position: absolute;
+
+  cursor: pointer;
+
+  z-index: 10;
+
+  left: 0px;
+
+  display: inline-block;
+
+  height: 573px;
+
+  width: 35px;
+
+  -webkit-transition: 0.5s ease-in-out;
+
+  -moz-transition: 0.5s ease-in-out;
+
+  -o-transition: 0.5s ease-in-out;
+
+  transition: 0.5s ease-in-out;
+
+}
+
+.jcImgScroll em.sNext {
+
+  background: url('../graphics/image-slider-forward-arrow.png') no-repeat left center;
+
+  position: absolute;
+
+  cursor: pointer;
+
+  z-index: 10;
+
+  right: 0px;
+
+  display: inline-block;
+
+  height: 573px;
+
+  width: 35px;
+
+  -webkit-transition: 0.5s ease-in-out;
+
+  -moz-transition: 0.5s ease-in-out;
+
+  -o-transition: 0.5s ease-in-out;
+
+  transition: 0.5s ease-in-out;
+
+}
+
+
+
+
+
+.jcImgScroll em.sPrev:hover{
+
+  -webkit-transform: translate(-5px);
+
+    -moz-transform: translate(-5px);
+
+    -o-transform: translate(-5px)
+
+    -ms-transform: translate(-5px);
+
+  transform: translate(-5px);
+
+}
+
+.jcImgScroll em.sNext:hover{
+
+  -webkit-transform: translate(5px);
+
+    -moz-transform: translate(5px);
+
+    -o-transform: translate(5px)
+
+    -ms-transform: translate(5px);
+
+  transform: translate(5px);
+
+}
+
+
+
+.jcImgScroll dl dd {
+
+  background: url(img/NumBtn.png) no-repeat 0 bottom;
+
+  text-indent: -9em;
+
+}
+
+
+
+.jcImgScroll dl dd:hover,
+
+.jcImgScroll dl dd.curr { background-position: 0 0; }
+

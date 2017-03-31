@@ -1,0 +1,201 @@
+/*
+
+Theme Name: Aquarius
+
+Theme URI: [GitHub Link]
+
+Description: Aquarius house Wordpress theme.
+
+Version: 1.0
+
+Author: Tomasz-Niedziela-Brach
+
+*/
+
+
+
+@media only screen and (max-width:860px){
+
+	#header{
+
+		padding-top: 0;
+
+	}
+
+	#logo{
+
+		margin-bottom: 10px;
+
+	}
+
+	#topMenu{
+
+		height: auto;
+
+		width: 100%;
+
+		left: 0;
+
+	}
+
+	#topMenu ul{
+
+		
+
+		border-bottom: none;
+
+		display: none;
+
+	}
+
+	#topMenu li{
+
+		display: block;
+
+		margin: 15px auto;
+
+	}
+
+	#topMenu li a{
+
+		padding: 0;
+
+		width: 125px;
+
+		text-align: left;
+
+		margin-left: 70px;
+
+	}
+
+	.mobile-menu{
+
+		display: block;
+
+		padding: 4px 6px;
+
+		height: 20px;
+
+		border-top: 1px solid #10294C;
+
+		border-bottom: 5px solid #10294C;
+
+	}
+
+	.mobile-menu img{
+
+		float: right;
+
+		cursor: pointer;
+
+	}
+
+	.cover-arrow, .nav{
+
+		display: none;
+
+	}
+
+	.col2p, .col3p{
+
+		-webkit-column-count: 1;
+
+	    -moz-column-count: 1;
+
+	    column-count: 1;
+
+	    width: 100%;
+
+	}
+
+	.next{
+
+		display: none;
+
+	}
+
+	section{
+
+		margin-bottom: 20px!important;
+
+		padding: 0!important;
+
+	}
+
+
+
+	.rates-table td{
+
+		width: 100%;
+
+		height: auto;
+
+		padding: 10px 0;
+
+		display: block;
+
+	}
+
+
+
+	.rates-table td:last-child{
+
+		background-image: none;
+
+		background-color: #ccc;
+
+		color: #10294c;
+
+		text-align: left;
+
+		padding-left: 30%;
+
+		width: 70%;
+
+	}
+
+
+
+	.links{
+
+		width: 100%;
+
+	}
+
+
+
+	.content{
+
+		min-width: 0;
+
+		width: 100%;
+
+	}
+
+
+
+	.mobileShow{
+
+		display: block!important;
+
+	}
+
+
+
+	.mobileHide{
+
+		display: none!important;
+
+	}
+
+}
+
+
+
+@media only screen and (max-width:640px){
+
+	.acontent{
+
+		width: 95%!important;
+
+	}

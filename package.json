@@ -1,0 +1,20 @@
+{
+  "name": "resto-app",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "dev": "nodemon ./bin/www"
+  },
+  "dependencies": {
+    "body-parser": "~1.15.2",
+    "debug": "~2.2.0",
+    "express": "~4.14.0",
+    "mongoose": "^4.7.7",
+    "morgan": "~1.7.0",
+    "socket.io": "^1.7.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
